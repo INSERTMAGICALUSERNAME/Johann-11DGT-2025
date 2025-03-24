@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+/* setup */
+img {
+    width:100%;
+    border: 2px maroon solid;
+}
+body {
+    background-color: burlywood;
+}
+head {
+    background-color: burlywood;
+
+}
+.boodleimg {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    border: 30px dashed greenyellow;
+}
+a{
+    color:rgb(230, 140, 49);
+    text-decoration: none;
+    font-family:"Iansui";
+}
+
+/* Home page */ 
+
+/* title & intro */
+.titleimage {
+    background-image: url(Asian_Food_Banner.webp);
+    margin:auto;
+    height: 300px;
+    width: 600px;
+    background-repeat: no-repeat;
+    border: 20px double maroon;
+    
+}
+
+.hometitle {
+    font-family: "Dancing Script";
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    margin: 150px;
+    font-size: 50px;
+    background-color: rgb(137, 34, 18);
+    border:10px solid rgb(137, 34, 18);
+    border-radius: 20%;
+}
+.magicallinedouble {
+    border-top: 5px double maroon;
+    color: burlywood;
+    margin-bottom: 20px;
+    
+}
+.magicallinesolid {
+    border-top: 2px solid maroon;
+    color: burlywood;
+    margin-top:10px;
+}
+.intro {
+    
+    font-family:"Iansui"; 
+    border: 1px maroon solid;
+    border-radius: 20px;
+    width: 800px;
+    text-align: center;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+.introbox {
+    display: inline;
+    
+    
+}
+/* Noodles Box */
+.noodleslinkpara:hover{
+    font-size: 20px;
+    color: rgb(241, 232, 220);
+    font-weight: bolder;
+}
+.noodleslinkpara {
+   display: block;
+    text-decoration: underline;
+   
+}
+
+
+
+.noodleimg {
+    width: 250px;
+    border: solid 2px burlywood;
+    border-radius: 20px;
+    float:left;
+    margin-right: 10px;
+
+}
+
+.noodlesintro {
+    border: 2px solid maroon;
+    border-radius: 20px;
+    background-color: rgb(105, 31, 31);
+    padding: 5px;
+}
+.noodles_para {
+    display: inline;
+    width: 400px;
+    height: 200px;
+    font-family:"Iansui";
+    margin-top: 500px;
+    margin-left:margin;
+    color: darksalmon;
+    line-height: 5px;
+    
+}
+.noodlesintro2 {
+    display:flex;
+    
+}
+
+
+/* Banner */
+.banner {
+    background-color: maroon;
+    width: 100%;
+    border: 10px solid maroon;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.homelink {
+margin-left: 10px;
+}
+.noodleslink{
+    margin-left: 10px;
+}
+.dumplingslink {
+    margin-left: 10px;
+}
+.meatslink {
+    margin-left: 10px;
+}
+
+/* Dumpling Box */
+.dumplingsimg {
+    width: 250px;
+    border: solid 2px burlywood;
+    border-radius: 20px;
+    float:right;
+    margin-right: 10px;
+}
+.dumplingslinkpara:hover{
+    font-size: 20px;
+    color: rgb(241, 232, 220);
+    font-weight: bolder;
+}
+.dumplingslinkpara {
+    display: block;
+     text-decoration: underline;
+    
+ }
+ .dumplingsintro {
+    border: 2px solid maroon;
+    border-radius: 20px;
+    background-color: rgb(105, 31, 31);
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+
+ }
+ .dumplings_para {
+    display: inline;
+    width: 400px;
+    height: 200px;
+    font-family:"Iansui";
+    margin-top: 500px;
+    margin-left:margin;
+    color: darksalmon;
+    line-height: 5px;
+ }
+ .dumplingsintro2 {
+    display:flex;
+    
+}
+/* Meats intro */
+.meatintro {
+    border: 2px solid maroon;
+    border-radius: 20px;
+    background-color: rgb(105, 31, 31);
+    padding: 5px;
+    margin-top: 30px;
+}
+.meatintro2 {
+    display: flex;
+}
+
+
+ /* Noodle & Rice Page */ 
+ 
+ .noodlericetitleimg {
+    background-color: maroon;
+    border: 20px double rgb(70, 1, 1);
+    height: 435px;
+    width: 780px;
+    margin: auto;
+    background-image: url(Fried-Rice.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    margin-bottom: 20px;
+
+ }
+.noodlericetitle {
+   text-align: center;
+   font-family: "Dancing Script"; 
+   font-size: 40px;
+   color: whitesmoke;
+   background-color: maroon;
+   margin: 20px;
+   margin-top: 150px;
+   opacity: 0.9;
+   
+   border: 20px double rgb(70, 1, 1);
+   
+}
+.rice-box1 {
+    display: inline;
+    
+    
+
+}
+.rice-box1int {
+    padding: 10px;
+    display: inline-block;
+    border: maroon 5px solid;
+   
+    width:35%;
+    margin-bottom: 5%;
+    margin-left: 100px;  
+}
+.rice-boximg {
+    display:block;
+    border-bottom:maroon 2px solid;
+}
+.stirfryparatitle {
+    font-family: "Winky Sans";
+    font-weight: normal;
+    margin-top:5px;
+    color: maroon;
+    margin-bottom: 0px;
+    border-bottom:maroon 2px solid;
+    padding-bottom: 2px;
+    
+    
+
+}
+.stirfrypara {
+    font-family: "Iansui";
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+    
+/* Dumpling & others Page */
+.dumplingtitleimg {
+    background-color: maroon;
+    border: 20px double rgb(70, 1, 1);
+    height: 300px;
+    width: 780px;
+    margin: auto;
+    background-image: url(Dumpling_plate.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+    margin-bottom: 20px;
+}
+.dumplingstitle {
+    text-align: center;
+   font-family: "Dancing Script"; 
+   font-size: 40px;
+   color: whitesmoke;
+   background-color: maroon;
+   opacity: 0.9;
+   margin: 20px;
+   margin-top: 100px;
+    border: 20px double rgb(70, 1, 1);
+    
+   
+ }
+ /* Meats Page */
+ .meattitleimg {
+    background-color: maroon;
+    border: 20px solid rgb(70, 1, 1);
+    height: 450px;
+    width: 780px;
+    margin:auto;
+    background-image: url(braised_porkbelly.webp);
+    background-size: 780px;
+    background-position: bottom;
+    margin-bottom: 20px;
+   
+    background-repeat:no-repeat;
+    
+}
+.meattitle {
+    text-align: center;
+   font-family: "Dancing Script"; 
+   font-size: 40px;
+   color: whitesmoke;
+   background-color: maroon;
+   opacity: 0.9;
+   margin: 40px;
+   margin-top: 25%;
+    border: 20px double rgb(70, 1, 1);
+    
+ }
+
+    
+
+ 
