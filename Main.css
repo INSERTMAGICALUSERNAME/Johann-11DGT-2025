@@ -25,6 +25,9 @@ a{
     text-decoration: none;
     font-family:"Iansui";
 }
+a:hover {
+    color: rgb(241, 232, 220)
+}
 
 /* Home page */ 
 
@@ -36,6 +39,7 @@ a{
     width: 600px;
     background-repeat: no-repeat;
     border: 20px double maroon;
+    margin-bottom: 10px;
     
 }
 
@@ -55,37 +59,65 @@ a{
     color: burlywood;
     margin-bottom: 20px;
     
+    
+}
+.magicallinedouble2 {
+    border-top: 5px double maroon;
+    color: burlywood;
+   
+    
+    
 }
 .magicallinesolid {
     border-top: 2px solid maroon;
     color: burlywood;
     margin-top:10px;
 }
+.magicallinesolidbox {
+    border-top: 2px solid rgb(230, 140, 49);
+    color: rgb(230, 140, 49);
+    margin-top:2px;
+    margin-bottom: 5px;
+    margin-left: 18.7%;
+    
+}
 .intro {
     
     font-family:"Iansui"; 
-    border: 1px maroon solid;
+    border: 5px maroon solid;
     border-radius: 20px;
-    width: 800px;
+    width: 60%;
     text-align: center;
     margin-left:auto ;
     margin-right: auto;
+    font-size:18px;
+    padding: 10px;
+    background-color: rgb(220, 175, 116);
+    
+    
+    
+}
+.intropattern {
+    background-image: url(Asian_Pattern.avif);
+    padding: 10px;
     
 }
 .introbox {
     display: inline;
+    margin-top: 0px;
+
     
     
 }
 /* Noodles Box */
 .noodleslinkpara:hover{
-    font-size: 20px;
+
     color: rgb(241, 232, 220);
-    font-weight: bolder;
+    
 }
 .noodleslinkpara {
    display: block;
-    text-decoration: underline;
+    
    
 }
 
@@ -105,6 +137,7 @@ a{
     border-radius: 20px;
     background-color: rgb(105, 31, 31);
     padding: 5px;
+    margin-top: 20px;
 }
 .noodles_para {
     display: inline;
@@ -126,11 +159,12 @@ a{
 /* Banner */
 .banner {
     background-color: maroon;
-    width: 100%;
+    width: 98%;
     border: 10px solid maroon;
     padding: 2px;
     margin-bottom: 10px;
     border-radius: 10px;
+    
 }
 .homelink {
 margin-left: 10px;
@@ -150,17 +184,18 @@ margin-left: 10px;
     width: 250px;
     border: solid 2px burlywood;
     border-radius: 20px;
-    float:right;
+    float:left;
     margin-right: 10px;
 }
 .dumplingslinkpara:hover{
-    font-size: 20px;
+   
     color: rgb(241, 232, 220);
-    font-weight: bolder;
+    
 }
 .dumplingslinkpara {
     display: block;
-     text-decoration: underline;
+    
+   
     
  }
  .dumplingsintro {
