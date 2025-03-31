@@ -5,6 +5,7 @@
 img {
     width:100%;
     border: 2px maroon solid;
+
 }
 body {
     background-color: burlywood;
@@ -137,7 +138,7 @@ a:hover {
     border-radius: 20px;
     background-color: rgb(105, 31, 31);
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 7px;
 }
 .noodles_para {
     display: inline;
